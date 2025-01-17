@@ -1,6 +1,39 @@
+/* src/app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   background-color: #F6F6F6;
+}
+
+@font-face {
+  font-family: 'Gilmer-Heavy';
+  src: url('../../public/fonts/Gilmer-Heavy.woff2') format('woff2'),
+      url('../../public/fonts/Gilmer-Heavy.woff') format('woff'),
+      url('../../public/fonts/Gilmer-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('../../public/fonts/Gilmer-Regular.woff2') format('woff2'),
+      url('../../public/fonts/Gilmer-Regular.woff') format('woff'),
+      url('../../public/fonts/Gilmer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gilmer-regular {
+  font-family: 'Gilmer', sans-serif;
+  font-weight: normal;
+}
+
+
+.gilmer-heavy {
+  font-family: 'Gilmer-Heavy', sans-serif;
+  font-weight: normal;
 }
